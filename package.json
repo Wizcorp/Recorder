@@ -1,0 +1,19 @@
+{
+  "name": "recorder",
+  "version": "0.1.0",
+  "description": "Allows recording and playing object properties over time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Wizcorp/Recorder.git"
+  },
+  "author": "bchevalier",
+  "license": "MIT",
+  "gitHead": "f14a75cbbd18b68f0e0b37b7dbc892c89cc78980",
+  "bugs": {
+    "url": "https://github.com/Wizcorp/Recorder/issues"
+  }
+}
