@@ -93,9 +93,8 @@ Recorder.prototype.play = function (sampler, maps) {
 	this._startPlaying();
 };
 
-Recorder.prototype._play = function (elapsedTime) {
+Recorder.prototype._play = function (playingHead) {
 
-	var playingHead = this._playingHead + elapsedTime;
 	this._playingHead = playingHead;
 
 	// Finding the sample index for the current playing head position
