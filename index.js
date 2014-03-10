@@ -202,9 +202,6 @@ Recorder.prototype.resume = function () {
 };
 
 Recorder.prototype.stop = function () {
-	this._mode = 'none';
-	this._state = 'idle';
-
 	if (this._mode === 'recorder') {
 		this._sampler.removeListener('update', this._doRecord);
 	}
@@ -212,4 +209,7 @@ Recorder.prototype.stop = function () {
 	if (this._mode === 'player') {
 		this._sampler.removeListener('update', this._doPlay);
 	}
+
+	this._mode = 'none';
+	this._state = 'idle';
 };
